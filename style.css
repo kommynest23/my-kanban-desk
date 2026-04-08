@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board {
+  display: flex;
+  border: 5px solid green;
+  height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    border: 2px solid red;
+}
+
+.task {
+    border: 1px solid purple;
+}
+
